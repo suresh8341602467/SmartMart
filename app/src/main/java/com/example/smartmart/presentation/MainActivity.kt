@@ -1,4 +1,6 @@
 package com.example.smartmart.presentation
 
-class MainActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity(){
 }
