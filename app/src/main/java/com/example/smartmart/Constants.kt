@@ -10,7 +10,7 @@ object Constants {
     const val CATEGORY_START_POINT = "https://storage.googleapis.com/"
     const val CATEGORY_END_POINT = "smartmart/categories.json"
 
-    private val retrofit: Retrofit by lazy {
+    /*private val retrofit: Retrofit by lazy {
         Retrofit.Builder()
             .baseUrl(CATEGORY_START_POINT)
             .addConverterFactory(GsonConverterFactory.create())
@@ -19,5 +19,5 @@ object Constants {
 
     val categoryApi: CategoryApi by lazy {
         retrofit.create(CategoryApi::class.java)
-    }
+    }*/
 }

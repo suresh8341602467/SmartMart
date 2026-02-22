@@ -1,6 +1,8 @@
 package com.example.smartmart.presentation
-import androidx.multidex.MultiDexApplication
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class MyApplication: MultiDexApplication() {
+@HiltAndroidApp
+class MyApplication: Application() {
 
 }

@@ -1,6 +1,8 @@
 package com.example.smartmart.domain
 
-class CategoryUseCase(private val repository: CategoryRepository) {
+import javax.inject.Inject
+
+class CategoryUseCase @Inject constructor(private val repository: CategoryRepository) {
     suspend fun getCategories() =
         repository.getCategories()
 
